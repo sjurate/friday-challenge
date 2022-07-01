@@ -1,0 +1,27 @@
+@import './layout.css';
+
+/* 3-rd-party css */ 
+
+@import '../../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf';
+
+@import '../pages/home.css';
+@import '../components/clock.css';
+
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+:root {
+    --main-color : #02577A;
+    --secondary-color: #C4C4C4;
+}
+
