@@ -2,8 +2,6 @@
 
 /* 3-rd-party css */ 
 
-@import '../../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf';
-
 @import '../pages/home.css';
 @import '../components/clock.css';
 
@@ -17,7 +15,7 @@ body * {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 :root {
